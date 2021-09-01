@@ -20,7 +20,7 @@ Array containing values
 ## Example Usage
 
 ```yml
-- uses: CatenaUS/pipeline-array-from-object@master
+- uses: BenBroide/pipeline-array-from-object@master
     id: data
     with:
       array: ${{array}}
