@@ -1,0 +1,25 @@
+name: array-from-object
+author: B B
+description: Get Array from object with keys of array
+inputs:
+  array:
+    description: "Keys of Array"
+    required: true
+    default: ""
+  object:
+    description: "Object with needed data"
+    required: true
+    default: ""
+  environment:
+    description: "String Environment"
+    required: true
+    default: ""
+outputs:
+  values:
+    description: "Array of strings"
+runs:
+  using: node12
+  main: "dist/index.js"
+branding:
+  icon: "zap-off"
+  color: "gray-dark"
